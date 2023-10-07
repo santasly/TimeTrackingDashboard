@@ -16,7 +16,7 @@ body{
 }
 .main{
     width: 80vw;
-    height: 70vh;
+    height: 80vh;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows:repeat(2,1fr);
@@ -25,7 +25,7 @@ body{
     'one five six seven'
      ;
     gap:20px;
-    border: 2px solid red;
+
 }
 .side-card{
     grid-area:one;
@@ -36,6 +36,7 @@ body{
     color:white;
     border-radius:20px;
     background-color: hsl(235, 46%, 20%);
+    height: 69vh;
   
 }
 .profile-head{
@@ -77,37 +78,32 @@ body{
 
 }
 .card1{
-    display: grid;
     grid-area:two;
     border-radius:20px;
    
 }
 .card1{
-    display: grid;
     grid-area:three;
     border-radius:20px;
+    
    
 }
 .card1{
-    display: grid;
     grid-area:four;
     border-radius:20px;
    
 }
 .card1{
-    display: grid;
     grid-area:five;
     border-radius:20px;
    
 }
 .card1{
-    display: grid;
     grid-area:six;
     border-radius:20px;
    
 }
 .card1{
-    display: grid;
     grid-area:seven;
     border-radius:20px;
    
