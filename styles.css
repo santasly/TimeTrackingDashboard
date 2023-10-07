@@ -1,0 +1,114 @@
+rots:
+
+*{
+    margin: 0;
+    border-radius: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit', 'Rubik','Poppins',sans-serif;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color:  hsl(226, 43%, 10%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main{
+    width: 80vw;
+    height: 70vh;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows:repeat(2,1fr);
+    grid-template-areas:
+    'one two three four '
+    'one five six seven'
+     ;
+    gap:20px;
+    border: 2px solid red;
+}
+.side-card{
+    grid-area:one;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    color:white;
+    border-radius:20px;
+    background-color: hsl(235, 46%, 20%);
+  
+}
+.profile-head{
+    display: flex;
+    align-items: center;
+    border-radius: 15px;
+    justify-content: space-between;
+    padding: 30px;
+    background-color: hsl(235, 45%, 61%);
+    width: 100%;
+    height: 60vh;
+}
+.prof-img{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    border: 3px solid #fff;
+    margin-bottom: 2em
+
+}
+.profile-text{
+
+}
+#text1{
+    font-size: .8em;
+    color: #cecece;
+}
+#text2{
+    font-size: 1.5em;
+    color: #fff;
+.cards{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px;
+    background-color: blueviolet;
+    border-radius: 10px;
+    grid-area: bluec;
+
+}
+.card1{
+    display: grid;
+    grid-area:two;
+    border-radius:20px;
+   
+}
+.card1{
+    display: grid;
+    grid-area:three;
+    border-radius:20px;
+   
+}
+.card1{
+    display: grid;
+    grid-area:four;
+    border-radius:20px;
+   
+}
+.card1{
+    display: grid;
+    grid-area:five;
+    border-radius:20px;
+   
+}
+.card1{
+    display: grid;
+    grid-area:six;
+    border-radius:20px;
+   
+}
+.card1{
+    display: grid;
+    grid-area:seven;
+    border-radius:20px;
+   
+}
